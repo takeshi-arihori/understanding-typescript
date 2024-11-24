@@ -5,3 +5,5 @@
 -   `number`: float や double などはなく全て一貫して `number`
 -   `string`: 全ての文字列
 -   `boolean`: true または false
+
+なぜ変数には型を指定しないのか?? => 型推論の機能があるから。
