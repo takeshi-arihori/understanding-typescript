@@ -23,3 +23,5 @@ push では型定義できない、値の直接代入には対応可能
 ### Any 型
 
 どんな値を入れてもエラーにならない
+
+[TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/type-system)
