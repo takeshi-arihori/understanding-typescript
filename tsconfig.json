@@ -107,5 +107,16 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+  },
+  "exclude": [ // コンパイルしたくないファイルを指定
+    // "analytics.ts"
+    // "node_modules", // would be default
+  ],
+  "include": [ // コンパイルしたいファイルを指定
+    "app.ts",
+    "analytics.ts"
+  ],
+  // "files": [ // file単位でコンパイルを指定できる
+  //   "app.ts"
+  // ]
 }
