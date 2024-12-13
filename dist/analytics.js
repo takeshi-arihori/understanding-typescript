@@ -1,2 +1,9 @@
 "use strict";
-console.log("sending data...");
+let logged;
+function sendAnalytics(data) {
+    console.log(data);
+    logged = true;
+    logged = "Max";
+    console.log(logged);
+}
+sendAnalytics("The data!!");

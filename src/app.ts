@@ -1,6 +1,13 @@
 const button = document.querySelector("button")!;
 
-// コメントのテスト
-button.addEventListener("click", () => {
-    console.log("clicked!!");
-});
+function clickHandler(message: string) {
+    console.log("message");
+    console.log("Clicked!! " + message);
+}
+
+if (button) {
+    button.addEventListener(
+        "click",
+        clickHandler.bind(null, "You're welcome!")
+    );
+}
