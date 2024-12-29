@@ -1,10 +1,8 @@
 "use strict";
-let appId = "abc";
-const button = document.querySelector("button");
-function clickHandler(message, age) {
-    console.log("Clicked!! " + message);
+const userName = "Max";
+let age = 30;
+if (age >= 20) {
+    let isAdult = true;
 }
-if (button) {
-    button.addEventListener("click", clickHandler.bind(null, "You're welcome!", 30));
-}
+console.log(isAdult);
 //# sourceMappingURL=app.js.map
